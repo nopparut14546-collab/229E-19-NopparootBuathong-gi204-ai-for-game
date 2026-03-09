@@ -7,6 +7,7 @@ public class FishCollision : MonoBehaviour
         if (other.CompareTag("Net"))
         {
             Time.timeScale = 0f;
+            Debug.Log("GAME OVER!");
         }
     }
 }
